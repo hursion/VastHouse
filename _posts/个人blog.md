@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Java 中的并发
+title: Android blog
 category: 技术
 comments: true
 ---
 
 
-# 个人blog
+# Hursion's blog
