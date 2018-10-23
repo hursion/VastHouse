@@ -1,1 +1,15 @@
-baseurl: /jekyll_demo
+
+#################################### global configure #######################################
+
+username: hursion
+baseurl: /VastHouse
+markdown: redcarpet
+safe: false
+highlighter: pygments
+title: 瀚海屋
+description: 人生到处知何似，应似飞鸿踏雪泥
+theme: hack
+disqusname: hursion
+
+# theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
+# those themes are all come from GitHub Pages Themes
