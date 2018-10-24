@@ -65,16 +65,16 @@ VastHouse
 
 1. 在项目的 Setting 中将 Repository name 从 VastHouse 修改为 blog
 2. 将 `_config.yml` 中的 baseurl 修改为 /blog
-3. 通过 http://minixbeta.github.io/blog/ 来访问你的新博客
+3. 通过 http://hursion.github.io/blog/ 来访问你的新博客
 
 ![create_post](/images/change_project_name.gif)
 
 
-~~* 修改评论系统用户名
+~~* 修改评论系统用户名~~
 
-~~我们的评论系统使用的是 [Disqus](https://disqus.com/)，如果你想在这份博客模板中使用，需要先去注册一下，然后得到一个用户名，例如 hursion。然后在 `_config.yml` 中将 disqusname 修改为 hursion。
+~~我们的评论系统使用的是 [Disqus](https://disqus.com/)，如果你想在这份博客模板中使用，需要先去注册一下，然后得到一个用户名，例如 hursion。然后在 `_config.yml` 中将 disqusname 修改为 hursion。~~
 
-~~**千万注意: 如果你开启评论系统一定要修改这个值，不然就评论到我的评论系统中去了**
+~~**千万注意: 如果你开启评论系统一定要修改这个值，不然就评论到我的评论系统中去了**~~
 
 ### 添加文章
 
