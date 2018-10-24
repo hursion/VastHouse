@@ -1,11 +1,11 @@
-StrayBirds
+VastHouse
 ==========
 
-基于 GitHub Pages 搭建的极简博客，所有操作都可以直接通过浏览器完成。
+基于 GitHub Pages + Jekyll搭建的极简博客，所有操作都可以直接通过浏览器完成。
 
 ## 示例
 
-可以通过访问 [StrayBirds](http://minixalpha.github.io/StrayBirds/) 看到最终
+可以通过访问 [VastHouse](http://hursion.github.io/VastHouse) 看到最终
 的效果，下面是截图:
 
 ![ui-demo](/images/ui_demo.png)
@@ -14,15 +14,17 @@ StrayBirds
 
 ### 使用方法
 
-1. 注册 GitHub，得到用户名，例如 minixbeta
-2. 到 [StrayBirds](https://github.com/minixalpha/StrayBirds) 页面，单击右上
+1. 注册 GitHub，得到用户名，例如 hursion
+2. 到 [VastHouse](http://hursion.github.io/VastHouse) 页面，单击右上
 角的 Fork
-3. 到你 Fork 后的项目中，将 `_config.yml` 中的 username 修改为你的用户名 minixbeta
-4. 访问你的博客 http://minixbeta.github.io/StrayBirds/
+3. 到你 Fork 后的项目中，将 `_config.yml` 中的 username 修改为你的用户名 hursion
+4. 访问你的博客 http://hursion.github.io/VastHouse
 
 ![create_project](/images/create_project.gif)
 
 **注意如果你是第一次使用 GitHub Pages，可能不会马上生效，等一段时间即可**
+
+**关于build fail，假设你已经使用邮件绑定github账号，那么你将会收到build的结果邮件，或者在Setting-GitHub Pages中查看报错信息，另外你还可以通过[本地编译](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)和[Travis CI](https://travis-ci.org/)来编译查看log。**
 
 **按照配置中说的方法修改项目名称可能会加快这一进程**
 
@@ -59,24 +61,24 @@ StrayBirds
 
 * 修改项目名
 
-例如将 StrayBirds 修改为 blog，那么你需要做的是
+例如将 VastHouse 修改为 blog，那么你需要做的是
 
-1. 在项目的 Setting 中将 Repository name 从 StrayBirds 修改为 blog
+1. 在项目的 Setting 中将 Repository name 从 VastHouse 修改为 blog
 2. 将 `_config.yml` 中的 baseurl 修改为 /blog
 3. 通过 http://minixbeta.github.io/blog/ 来访问你的新博客
 
 ![create_post](/images/change_project_name.gif)
 
 
-* 修改评论系统用户名
+~~* 修改评论系统用户名
 
-我们的评论系统使用的是 [Disqus](https://disqus.com/)，如果你想在这份博客模板中使用，需要先去注册一下，然后得到一个用户名，例如 minixalpha。然后在 `_config.yml` 中将 disqusname 修改为 minixalpha。
+~~我们的评论系统使用的是 [Disqus](https://disqus.com/)，如果你想在这份博客模板中使用，需要先去注册一下，然后得到一个用户名，例如 hursion。然后在 `_config.yml` 中将 disqusname 修改为 hursion。
 
-**千万注意: 如果你开启评论系统一定要修改这个值，不然就评论到我的评论系统中去了**
+~~**千万注意: 如果你开启评论系统一定要修改这个值，不然就评论到我的评论系统中去了**
 
 ### 添加文章
 
-在 `_post` 目录下添加形如 `2014-10-26-title.md` 的文章，用 markdown 格式
+在 `_post` 目录下添加形如 `2018-10-24-title.md` 的文章，用 markdown 格式
 撰写博客。
 
 例如：
