@@ -35,7 +35,7 @@ unpublished:  false
 
 # Conversion
 markdown:     kramdown
-rouge:  pygments
+highlighter: rouge
 lsi:          false
 excerpt_separator: "\n\n"
 
