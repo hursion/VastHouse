@@ -26,7 +26,7 @@ E DownloadManager: [6] Failed: java.lang.IllegalArgumentException: Invalid UUID 
 E DownloadManager: java.lang.IllegalArgumentException: Invalid UUID string: D465-1BEB
 I MediaPlayerDrmTestBase: Downloaded file:file:///storage/D465-1BEB/Download/car_cenc-20120827-8c.mp4 id:6 uri:null
 ```
-**2.CTS 7.0_r24 android.dpi.cts.ConfigurationScreenLayoutTest#testScreenLayout fail **
+**2.CTS 7.0_r24 android.dpi.cts.ConfigurationScreenLayoutTest#testScreenLayout fail**
 
 root cause:testScreenLayout()要求四个方向旋转时都要返回相同的Configuration，因为客户机器的wm size为：720×1440，并且只修改了竖屏状态下的nav高度（"navigation_bar_height"），导致横竖屏report不一致。
 
@@ -42,7 +42,7 @@ at junit.framework.Assert.assertEquals(Assert.java:67)
 at junit.framework.Assert.assertEquals(Assert.java:199)
 at android.dpi.cts.ConfigurationScreenLayoutTest.testScreenLayout(ConfigurationScreenLayoutTest.java:58)
 ```
-** 3. com.android.cts.devicepolicy.MixedDeviceOwnerTest#testAudioRestriction fail和com.android.cts.devicepolicy.MixedProfileOwnerTest#testAudioRestriction  fail**
+**3. com.android.cts.devicepolicy.MixedDeviceOwnerTest#testAudioRestriction fail和com.android.cts.devicepolicy.MixedProfileOwnerTest#testAudioRestriction  fail**
 root cause：未设置默认铃声
 
 solution：设置默认铃声
