@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Linux
-category: 技术
+title: Linux vim plugin
+category: Linux
 comments: true
 
 ---
 # vim & plugin
 
-## 基本及字体
-如何切换？
+我的[.vimrc](https://github.com/hursion/Linux/blob/master/.vimrc)
+关于[配置参考](https://www.cnblogs.com/zhongcq/p/3642794.html)
 
-##
