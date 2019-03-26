@@ -2,7 +2,7 @@
 source:       .
 destination:  ./_site
 plugins:      ./_plugins
-layouts:      ./_layouts
+layouts_dir:      ./_layouts
 paginate:     8
 
 # Handling Reading
