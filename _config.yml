@@ -12,8 +12,8 @@ plugins:
    - jekyll-seo-tag
    - jekyll-avatar
    - jekyll-include-cache
-layouts:  ./_layouts
-paginate:     8
+layouts_dir:  ./_layouts
+paginate:     15
 
 # Handling Reading
 safe:         false
@@ -128,8 +128,8 @@ safe: false
 highlighter: pygments
 title: 瀚海屋
 description: To be or not to be ,that is a question
-theme: kunka
+theme: hack
 disqusname: hursion
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
-# thoseau themes are all come from GitHub Pages Themes
+# those themes are all come from GitHub Pages Themes
