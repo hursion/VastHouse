@@ -131,7 +131,7 @@ safe: false
 highlighter: pygments
 title: 瀚海屋
 description: To be or not to be ,that is a question
-theme: kunka 
+theme: kunka
 disqusname: hursion
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
