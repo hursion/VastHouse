@@ -1,6 +1,3 @@
-
-
-
 ######################### theme kunka condigure ##############################################
 # Where things are
 source:       .
@@ -15,7 +12,7 @@ plugins:
    - jekyll-seo-tag
    - jekyll-avatar
    - jekyll-include-cache
-layouts_dir:      ./_layouts
+layouts:  ./_layouts
 paginate:     8
 
 # Handling Reading
@@ -53,7 +50,7 @@ timezone:      null
 
 #Site config
 title: Jekyll Theme
-description: Just another Jekyll theme design and code by hursion.info.
+description: Just another Jekyll theme design and code by hursion.
 keywords: Jekyll Theme
 url: /VastHouse
 feed: /atom.xml
