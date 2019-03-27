@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.2
 script:
-  - bundle exec jekyll build
+  - bundle exec jekyll serve
  # branch whitelist, only for GitHub Pages
 branches:
  only:
