@@ -73,7 +73,7 @@ nav:
 author:
     name: hursion
     email: 15221954905@163.com
-    imageLink: https://github.com/hursion/Hursion_Resource/blob/master/fav/download.jpeg?raw=true
+    #imageLink: https://github.com/hursion/Hursion_Resource/blob/master/fav/download.jpeg?raw=true
     simpleIntro: I am hursion
     detailIntro:
       <p>记录工作从博客开始</p>
@@ -128,7 +128,7 @@ safe: false
 highlighter: pygments
 title: 瀚海屋
 description: To be or not to be ,that is a question
-theme: hack
+theme: kunka
 disqusname: hursion
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
